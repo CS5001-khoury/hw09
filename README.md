@@ -1,7 +1,12 @@
-# homework_template
-Template repository for new homeworks
+# Homework 09 - Dictionaries 
 
-Assignment description here
+For this assignment you will explore reading in file data for *large* files, and then adding unique data to a dictionary counting various entries.
+
+## Provided Files
+
+
+
+
 
 Highlight each major component with a section, add **task** for tasks and include 👉🏽 or something obvious so they can be found easily. 
 
