@@ -10,8 +10,6 @@ from typing import Dict
 import argparse
 import sys
 
-AIRLINE_FILE = "airlines.dat"
-FLIGHT_SMALL = "flights10.dat"
 
 
 def load_airlines(filename: str) -> Dict[str, str]:
@@ -105,13 +103,13 @@ if __name__ == "__main__":
         "-f",
         "--flights",
         help="The file containing the flight data.",
-        default=FLIGHT_SMALL,
+        default="flights10.dat",
     )
     parser.add_argument(
         "-a",
         "--airlines",
         help="The file containing the airline data.",
-        default=AIRLINE_FILE,
+        default="airlines.dat",
     )
     args = parser.parse_args()
     main(args.flights, args.airlines)
