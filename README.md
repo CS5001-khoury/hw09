@@ -29,4 +29,4 @@
 
 ## Deeper Thinking
 
-One of the strengths of python is the many publicly available libraries. This assignment has mentioned a couple `doctest` and `argparser`. Take a moment to research others, and list at least three libraries you may find useful and what they are used for. 
+When dealing with large datasets, or data in general, there needs to be a careful consideration of biases, collection, and use of that data. For example, it is very possible for real world data to be biased towards collection biases or sampling biases, and there are very real ethical issues in how that data is being used especially if a bias is not being taken into account. Take a moment to research some issues with data collection and use, and list some examples you can find. You may even find some examples that are related to data you supply on a data basis (i.e. what you give to social media)
