@@ -61,7 +61,7 @@ Here are some specific constraints:
 * When loading the flight information, if the airline code is not in the airlines dictionary, you should skip that flight.
 * Flights always start with the two digit airline code. 
 * Both `load_airlines` and `build_counters` will be reading in from the provided .dat files, building the required dictionaries as the file is being read (don't try to load an entire file, and then build - because the 1,000,000+ lines would waste a lot of memory doing that).
-* The spacing is exact! You will need to use string format to get it.  The Airlines name should be *30* characters wide, and the number of flights should be *7* characters wide, with a space between them. See below for some hints on how to do this.
+* You will need to use string format to get it.  The Airlines name should be *30* characters wide, and the number of flights should be *7* characters wide, with a space between them. The comma is often the hardest thing to make sure it is included. See below for some hints on how to do this.
 
 
 ### test_flight_counter.py
@@ -83,22 +83,20 @@ If everything runs correctly, you actually get 0 output. If there is an error, i
 $ python3 -m doctest flight_counter.py -v
 ```
 
+Reminder: windows uses python, not python3. mac and linux uses python3.
+
 ---
 
 Start early, and ask questions!
 
-##  README.md
-In your READme.md file, answer the following questions:
 
-1. Which Airlines have the most flights in 2015? How many flights did they have?
-2. Which Airlines have the least flights in 2015? How many flights did they have?
-3. What part of the assignment challenged you the most?
-4. What part did you enjoy the most?
-5. Data is an important aspect of our society, and it is important to understand how to work with it. What are some ways you can see data being used in your future career?
-6. You should start thinking about larger applications, list some applications /  projects you would like to work on? Narrow it down to projects that you can accomplish within a couple weeks within this class?
-7. Provide output of you running `doctest` with the `-v` flag enabled (i.e. the output generated on your screen)
-8. Output of running `python3 flight_counter.py -h`, and what it means in your own words.
+## README.md
 
+👉🏽 **Task**: Answer the questions in the [README.md](../README.md) file. 
+
+Make sure to answer the questions in the [README.md](../README.md) file.
+
+As always you are free to ask about the questions in MS Teams, including clarifications on the code. 
 
 
 ## 📝 Grading Rubric
@@ -110,19 +108,22 @@ In your READme.md file, answer the following questions:
 2. Approaching  (AG)
    * Build counters works correctly with a small airlines file 
    * Build counters works correct with medium sized files
-   * prints out flight info for a small data set, spacing is not counted
+   * prints out flight info for a small data set, spacing is not counted, no commas
 3. Meets  (AG)
    * Passes standard pycodestyle check
-   * Prints out flight info for a large dataset including commas and spacing correct
-   * Prints out flight info for a small data set including proper spacing
+   * Prints out flight info for a large dataset including commas correct
 4. Exceeds  (MG)
    * Code has comments, well written, and easy to read
-   * Student provides a test_flight_counter.py file, along with any test.dat files they made.
+   * Student provides a test_flight_counter.py or evidence of testing, along with any test.dat files they made.
    * Student answers questions in the README.md file
 
 
 AG - Auto-graded  
 MG - Manually graded
+
+
+### Submission Reminder 🚨
+For manually graded elements, we only guarantee time to submit for a regrade IF you submit by the DUE DATE. Submitting late may mean it isn't possible for the MG to be graded before the AVAILABLE BY DATE, removing any windows for your to resubmit in time. While it will be graded, it is always best to submit by the due date, so you have full opportunity to improve your grade.
 
 
 ## 📚 Additional Resources
