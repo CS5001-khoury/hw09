@@ -65,7 +65,7 @@ Here are some specific constraints:
 
 
 ### test_flight_counter.py
-👉🏽 **TASK** - Make sure to write tests in a `test_flight_counter.py` file. 
+👉🏽 **TASK** - Make sure to write tests in a `test_flight_counter.py` file OR you an add examples (make sure you cover edge cases) to the docstrings, and run doctests.
 
 This can be done by building very specific test files, and then making sure the built dictionaries match with what is expected. For example, an airline file that only has three lines. 
 
@@ -80,10 +80,12 @@ $ python3 -m doctest flight_counter.py
 If everything runs correctly, you actually get 0 output. If there is an error, it will show you what the error is. If you want to force full details for output, you add the `-v` flag.
 
 ```console
-$ python3 -m doctest flight_counter.py -v
+$ python3 -m doctest -v flight_counter.py 
 ```
 
 Reminder: windows uses python, not python3. mac and linux uses python3.
+
+If you use doctest for testing over writing your own files, make sure to capture the output into a text file for your submission!
 
 ---
 
@@ -114,7 +116,7 @@ As always you are free to ask about the questions in MS Teams, including clarifi
    * Prints out flight info for a large dataset including commas correct
 4. Exceeds  (MG)
    * Code has comments, well written, and easy to read
-   * Student provides a test_flight_counter.py or evidence of testing, along with any test.dat files they made.
+   * Student provides a test_flight_counter.py or evidence of testing (such as output from doctest), along with any test.dat files they made.
    * Student answers questions in the README.md file
 
 
