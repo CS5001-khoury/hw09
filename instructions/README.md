@@ -65,9 +65,9 @@ Here are some specific constraints:
 
 
 ### test_flight_counter.py
-👉🏽 **TASK** - Make sure to write tests in a `test_flight_counter.py` file OR you an add examples (make sure you cover edge cases) to the docstrings, and run doctests.
+👉🏽 **TASK** - Make sure to write tests in a `test_flight_counter.py` file OR you an add examples (make sure you cover edge cases) to the docstrings in `flight_counter.py`, and run doctests with the -v option (see below).
 
-This can be done by building very specific test files, and then making sure the built dictionaries match with what is expected. For example, an airline file that only has three lines. 
+The first can be done by building very specific test files, and then making sure the built dictionaries match with what is expected. For example, an airline file that only has three lines. 
 
 You can make ".dat" files using a text editor/your IDE such as Pycharm or VS Code. They are just text files. 
 
@@ -86,6 +86,8 @@ $ python3 -m doctest -v flight_counter.py
 Reminder: windows uses python, not python3. mac and linux uses python3.
 
 If you use doctest for testing over writing your own files, make sure to capture the output into a text file for your submission!
+
+In practice, both are done as testing files can be difficult using docstrings + doctests (as the file may not be there!), so one often uses both approaches depending on the situation. However, no need to go into that detail for this assignment.
 
 ---
 
